@@ -1,1 +1,1 @@
-# completedApp
+# weather-app

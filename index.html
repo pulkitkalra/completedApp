@@ -9,10 +9,19 @@
   <link rel="stylesheet" href="css/index.css">
 </head>
 <body class="body page-index clearfix">
-  <h1>Welcome to your Personal Portal!</h1>
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+    <h1>Welcome to your Personal Portal!</h1>
   <br>
   <input id="txtName" name="txtName" placeholder="Please enter your name"/ maxlength="20">
   <button href="#" class="myButton" id="btnGreet">Submit</button>
+  <br><br>
   <p><div id = "content"></div></p>
 
   <div class="container clearfix">
@@ -28,6 +37,9 @@
     </div>
   </div>
   <div class="fader"></div>
+  <!-- Facebook share -->
+  <iframe class = "fb-share" src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fpersonalport.azurewebsites.net%2F&layout=button_count&size=large&mobile_iframe=true&width=84&height=28&appId" width="84" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" ></iframe>
+
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js" ></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.simpleWeather/3.1.0/jquery.simpleWeather.min.js"></script>

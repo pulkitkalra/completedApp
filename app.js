@@ -1,3 +1,4 @@
+// Reference: Adaptation of tutorial provided by Upamanyu Das on youtube: https://www.youtube.com/watch?v=lpLUx-0t7aE
 var app;
 (function (app) {
     var Greeter = (function () {

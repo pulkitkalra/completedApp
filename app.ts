@@ -1,3 +1,5 @@
+// Reference: Adaptation of tutorial provided by Upamanyu Das on youtube: https://www.youtube.com/watch?v=lpLUx-0t7aE
+
 module app {
 	export interface IGreeter {
 		greet(): void;

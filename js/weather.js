@@ -3,7 +3,7 @@ if ("geolocation" in navigator) {
         loadWeather(position.coords.latitude+','+position.coords.longitude);
     });
 } else{
-    loadWeather("Auckland,NZ","");
+    loadWeather("Bangalore,IN","");
 }
 
 $(document).ready(function(){

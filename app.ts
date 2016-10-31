@@ -8,7 +8,7 @@ module app {
 	export class Greeter implements IGreeter {
 		private greeting: string;
 		constructor(greeting: string){
-            this.greeting = greeting;
+            	this.greeting = greeting;
         }
         greet(): void {
             console.log(this.greeting);

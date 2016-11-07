@@ -17,6 +17,9 @@ window.addEventListener('DOMContentLoaded', function () {
     var btn = document.getElementById('btnGreet');
     btn.addEventListener('click', function () {
         var name = document.getElementById('txtName').value;
+        if (name.equals("Pulkit")){
+            name = "You are very cool!"
+        }
         if (name.length === 0) {
             alert("Please enter a name!");
         }

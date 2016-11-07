@@ -18,6 +18,7 @@ window.addEventListener('DOMContentLoaded', function () {
         var name = document.getElementById('txtName').value;
         if (name.equals("Pulkit")){
             name = "You are very cool!"
+            alert("Welcome Master");
         }
         if (name.length === 0) {
             alert("Please enter a name!");

@@ -30,10 +30,3 @@ function submitEntry() {
     });
 }
 window.addEventListener('DOMContentLoaded', submitEntry());
-
-document.querySelector('#txtSearch').addEventListener('keypress', function (e) {
-    var key = e.which || e.keyCode;
-    if (key === 13) { // 13 is enter
-        submitEntry()
-    }
-});

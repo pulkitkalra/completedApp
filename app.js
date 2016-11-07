@@ -12,7 +12,7 @@ var app;
     }());
     app.Greeter = Greeter;
 })(app || (app = {}));
-window.addEventListener('DOMContentLoaded', function () {
+function submitEntry() {
     var btn = document.getElementById('btnGreet');
     btn.addEventListener('click', function () {
         var name = document.getElementById('txtName').value;
@@ -28,4 +28,5 @@ window.addEventListener('DOMContentLoaded', function () {
             greeter.greet();
         }
     });
-});
+}
+window.addEventListener('DOMContentLoaded', submitEntry());
